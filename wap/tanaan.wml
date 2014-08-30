@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+
+<card id="tanaan" title="Klubitus">
+$(kaupunki) $(p).$(kk).$(v)<br/>
+<table columns="1">
+<tr><td>bileet</td></tr>
+<tr><td>paikka</td></tr>
+</table>
+<do type="accept" name="hae" label="hae p‰iv‰..">
+<go href="#paiva"/>
+</do>
+</card>
+
+<card id="paiva" title="Klubitus">
+<p>
+p‰iv‰: <input type="TEXT" format="NN" name="p"/>
+kuukausi: <input type="TEXT" format="NN" name="kk"/>
+vuosi: <input type="TEXT" format="NNNN" name="v"/>
+kaupunki:
+<select name="kaupunki" value="helsinki" title="kaupunki">
+<option value="helsinki">helsinki</option>
+<option value="j‰rvenp‰‰">j‰rvenp‰‰</option>
+<option value="tampere">tampere</option>
+<option value="turku">turku</option>
+<option value="espoo">espoo</option>
+<option value="jyv‰skyl‰">jyv‰skyl‰</option>
+<option value="kotka">kotka</option>
+<option value="kouvola">kouvola</option>
+<option value="kuopio">kuopio</option>
+<option value="lahti">lahti</option>
+<option value="lappeenranta">lappeenranta</option>
+<option value="oulu">oulu</option>
+<option value="pori">pori</option>
+<option value="vaasa">vaasa</option>
+<option value="-muu-">-muu-</option>
+</select>
+</p>
+<do type="accept" name="hae" label="hae">
+<go href="#tanaan"/>
+</do>
+</card>
+
+</wml> 
