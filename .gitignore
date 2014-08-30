@@ -1,0 +1,7 @@
+/bak
+/dbs
+/temp
+*.bak
+*_bak.*
+*.mdb
+*.wmlc
