@@ -1,0 +1,46 @@
+body { 
+	scrollbar-face-color: #203FC9; 
+	scrollbar-shadow-color: #000000; 
+	scrollbar-highlight-color: #000000; 
+	scrollbar-3dlight-color: #000000; 
+	scrollbar-darkshadow-color: #000000; 
+	scrollbar-track-color: #0A133D; 
+	scrollbar-arrow-color: #FFFFFF; 
+}
+td {
+	font-family: Verdana, Arial;
+	font-size: 11px;
+	color: #FFFFFF;
+}
+input, select, textarea { 
+	background: #0A133D;
+	color: #FFFFFF;
+	font-family: Arial;
+	font-size: 11px;
+}
+a { 
+	color: #CCCCFF;
+	text-decoration: none;
+}
+a:hover {
+	color: #FFFFFF;
+	text-decoration: underline
+}
+.head {
+	font-weight: bold;
+	font-size: 17px;
+	letter-spacing: 5px;
+}
+.sub1 { 
+	color: #8888FF;
+	font-size: 12px;
+}
+.sub2 { 
+	color: #CCCCFF;
+}
+.selitys {
+	color: #FFFFFF;
+}
+.selite {
+	text-align: right;
+}

@@ -1,0 +1,50 @@
+body { 
+	scrollbar-face-color: #887C1A; 
+	scrollbar-shadow-color: #000000; 
+	scrollbar-highlight-color: #000000; 
+	scrollbar-3dlight-color: #000000; 
+	scrollbar-darkshadow-color: #000000; 
+	scrollbar-track-color: #2E2B0A; 
+	scrollbar-arrow-color: #FFFFFF; 
+}
+td {
+	font-family: Verdana, Arial;
+	font-size: 11px;
+	color: #FFFFFF;
+}
+input, select, textarea { 
+	background: #2E2B0A;
+	color: #FFFFFF;
+	font-family: Arial;
+	font-size: 11px;
+}
+a { 
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover {
+	color: #FFFFFF;
+	text-decoration: underline
+}
+.head {
+	font-weight: bold;
+	font-size: 17px;
+	letter-spacing: 5px;
+}
+.sub1 { 
+	color: #FF88FF;
+	font-size: 12px;
+}
+.sub2 { 
+	color: #FFCCFF;
+}
+.navi { 
+	color: #FF88FF;
+	font-size: 12px;
+}
+.selitys {
+	color: #FFFFFF;
+}
+.selite {
+	text-align: right;
+}

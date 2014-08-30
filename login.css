@@ -1,0 +1,26 @@
+td {
+	font-family: Verdana, Arial;
+	font-size: 11px;
+	color: #FFFFFF;
+}
+a { 
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover {
+	color: #FFFFFF;
+	text-decoration: underline
+}
+.sub1 { 
+	color: #FFFF88;
+}
+.login {
+	position: absolute;
+	bottom: 0;
+}
+input { 
+	background: transparent;
+	color: #FFFFFF;
+	font-family: Arial;
+	font-size: 11px;
+}

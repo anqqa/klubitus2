@@ -1,0 +1,65 @@
+body { 
+	scrollbar-face-color: #AD5D90; 
+	scrollbar-shadow-color: #000000; 
+	scrollbar-highlight-color: #000000; 
+	scrollbar-3dlight-color: #000000; 
+	scrollbar-darkshadow-color: #000000; 
+	scrollbar-track-color: #321527; 
+	scrollbar-arrow-color: #FFFFFF; 
+}
+td {
+	font-family: Verdana, Arial;
+	font-size: 11px;
+	color: #FFFFFF;
+}
+input, select, textarea { 
+	background: #321527;
+	color: #FFFFFF;
+	font-family: Arial;
+	font-size: 11px;
+}
+a { 
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover {
+	color: #FFFFFF;
+	text-decoration: underline
+}
+.head {
+	font-weight: bold;
+	font-size: 17px;
+	letter-spacing: 5px;
+}
+.sub1 { 
+	color: #FF88FF;
+}
+.sub2 { 
+	color: #FFCCFF;
+}
+.selitys {
+	color: #FFFFFF;
+}
+.navi {
+	color: #FF88FF;
+	font-size: 12px;
+}
+.paiva {
+	color: #FFFFFF;
+	font-weight: normal;
+	text-align: right;
+	font-size: 13px;
+}
+.bileet {
+	color: #FF88FF;
+}
+.paikka {
+	color: #FFCCFF;
+}
+.kuukausi {
+	color: #FFFFFF;
+	font-size: 15px;
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+

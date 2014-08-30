@@ -1,0 +1,26 @@
+body { 
+	scrollbar-face-color: #555555; 
+	scrollbar-shadow-color: #000000; 
+	scrollbar-highlight-color: #000000; 
+	scrollbar-3dlight-color: #000000; 
+	scrollbar-darkshadow-color: #000000; 
+	scrollbar-track-color: #000000; 
+	scrollbar-arrow-color: #FFFFFF; 
+}
+td {
+	font-family: Verdana, Arial;
+	font-size: 11px;
+	color: #FFFFFF;
+}
+a { 
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover {
+	color: #FFFFFF;
+	text-decoration: underline
+}
+.sub1 { 
+	color: #FFFF88;
+}
+
